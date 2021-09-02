@@ -9,50 +9,74 @@
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 <body>
     <div class="container">
-        <h1>Personal Imformation of Player</h1>
         <form action="noaction.cs">
-            <div>
-                <label class="fullnamelabel">Full Name</label>
-                <input type="text" class="fullname">
+            <!-- Personal information -->
+            <div class="form-section">
+                <h2>Personal Imformation of Player</h2>
+                <div class="form-control">
+                    <label class="label">Select Image</label>
+                    <input type="file" name="" id="" class="txtbox" accept="image/*">
+                </div>
+                <div class="form-control">
+                    <label for="fullname" class="label">Full Name</label>
+                    <input type="text" id="fullname" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Date of Birth</label>
+                    <input type="date" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Age</label>
+                    <input type="number" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Batting style</label>
+                    <input type="text" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Bowling style</label>
+                    <select name="" id="" class="txtbox">
+                        <option value="">--Select--</option>
+                        <option value="Right Hand">Right Hand Batsman</option>
+                        <option value="Left Hand">Left Hand Batsman</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Role</label>
+                    <input type="text" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Nationality</label>
+                    <input type="text" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <Label class="label">Debut on</Label>
+                    <input type="date" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Height</label>
+                    <input type="number" class="txtbox">
+                </div>
+                <div class="form-control">
+                    <label for="" class="label">Ranking</label>
+                    <input type="number" class="txtbox">
+                </div>
             </div>
-            <div>
-                <label for="" class="doblabel">Date of Birth</label>
-                <input type="date" class="dob">
+
+            <!-- Bowling Style -->
+            <div class="form-section">
             </div>
-            <div>
-                <label for="" class="agelabel">Age</label>
-                <input type="number" class="age">
+
+            <!-- Batting Style -->
+            <div class="form-section">
             </div>
-            <div>
-                <label for="" class="batstylelabel">Batting style</label>
-                <input type="text" class="batstyle">
-            </div>
-            <div>
-                <label for="" class="bowlstylelabel">Bowling style</label>
-                <input type="text" class="bowlstyle">
-            </div>
-            <div>
-                <label for="" class="rolelabel">Role</label>
-                <input type="text" class="role">
-            </div>
-            <div>
-                <label for="" class="nationalitylabel">Nationality</label>
-                <input type="text" class="nationality">
-            </div>
-            <div>
-                <Label class="debutlabel">Debut on</Label>
-                <input type="date" class="debut">
-            </div>
-            <div>
-                <label for="" class="heightlabel">Height</label>
-                <input type="number" class="height">
-            </div>
-            <div>
-                <label for="" class="ranklabel">Ranking</label>
-                <input type="number" class="rank">
-            </div>
+
+
+            <!-- 
+
             <h1>Bowling Career Statistics</h1>
             <div>
                 <label for="" class="spanlabel">Span</label>
@@ -130,7 +154,7 @@
             <div>
                 <label for="" class="50label">50's</label>
                 <input type="number" class="50">
-            </div>     
+            </div> -->
         </form>
     </div>
 </body>
