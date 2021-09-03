@@ -8,16 +8,23 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-
     .container {
-        width: 50%;
+
+        /* width: 50%;
         margin: 0 auto;
+         */
     }
+    /* .form-section-wrapper{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    } */
 
     .form-section {
         box-shadow: 0 0 20px grey;
         border-radius: 8px;
-        margin: 20px 0;
+        margin: 30px 200px;
         padding: 10px 20px;
         transition: 0.3s;
     }
@@ -32,8 +39,8 @@
     }
 
     .form-control {
-        margin: 10px 0;
-        padding: 10px;
+        margin: 10px 100px;
+        padding: 0px;
         display: grid;
         grid-template-rows: 1;
         grid-template-columns: 1fr 2fr;
@@ -41,10 +48,12 @@
 
     .label {
         font-size: 18px;
+        color: rgb(10, 143, 204);
     }
 
     .txtbox {
-        border: 1px solid black;
+        border: 1px solid rgb(121, 19, 19);
+        box-shadow: 0 0 20px rgb(121, 19, 19);
         height: 30px;
         border-radius: 4px;
         font-size: 18px;
